@@ -12,6 +12,10 @@ box-sizing: border-box;
     margin: 0 auto;
 }
 
+h1{
+    display: none;
+}
+
 header{
     background-color: #1E1C21;
     height: 80px;
@@ -41,12 +45,20 @@ header{
     color:#ffff ;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .menu a:hover{
-color:rgb(112, 218, 128)
+scale: 1.1;
+}
 
+.barras{
+    display: none;
+}
+
+.cabecalho_alinhamento svg{
+    width: 30px;
+    fill: white;
 }
 
 .banner{
@@ -90,4 +102,63 @@ color:rgb(112, 218, 128)
     border-radius: 10px;
 }   
 
+.secao_jogos{
+    background-color: black;
+    height: 120px;
 
+}
+.linha_jogos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 30px 0;
+}
+
+.ofertas{
+   background-color:#1E1C21 ; 
+   padding: 30px 0;
+}
+
+h2{
+    color: white;
+}
+.secao_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+
+.card{
+    width: 215px;
+    margin: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;; ;
+    text-decoration: none;
+}
+
+@media screen and(max-width: 1200px) {
+   .Logo{
+       width: 250px;
+       margin-right: 20px;
+   }
+   
+   
+    .menu{
+        width: 550px;
+    }
+    
+    .menu a{
+        font-size: 16px;
+    }
+    
+}
+
+
+@media screen and(max-width: 768px) {
+    .menu{
+        display: none;
+    }
+    .barras{
+        display: flex;
+    }
+}

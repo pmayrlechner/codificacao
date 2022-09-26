@@ -104,7 +104,7 @@ scale: 1.1;
 
 .secao_jogos{
     background-color: black;
-    height: 120px;
+    
 
 }
 .linha_jogos{
@@ -132,8 +132,26 @@ h2{
 .card{
     width: 215px;
     margin: 20px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;; ;
+    box-shadow: 0 0 10px #C31616;
+    background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(139,139,139,1) 100%);
+    color: white;
+    padding-bottom: 10px;
+}
+
+.card a{
     text-decoration: none;
+    background-color: #C31616;
+    padding: 12px 38px;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    margin: 15px;
+    text-align: center;
+
+}
+
+.card * :not(:first-child){
+   margin: 5px 10px;
 }
 
 @media screen and(max-width: 1200px) {
@@ -153,12 +171,31 @@ h2{
     
 }
 
-
 @media screen and(max-width: 768px) {
+    .cabecalho_alinhamento{
+        position: relative;
+    }
+    
     .menu{
         display: none;
-    }
-    .barras{
+        flex-direction: column;
+        width: 150px;
+        position: absolute;
+        right: 0;
+        top: 70px;
+        background-color: #000000dd;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px black;
+        }
+
+        .menu a{
+            margin: 5px;
+            text-align: end;
+        }
+
+        .barras{
         display: flex;
+        
     }
 }

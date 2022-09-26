@@ -36,7 +36,7 @@
         <div class="container_grid posicao_texto">
             <div class="texto_banner">
                 <span>Liga E-Players</span>
-                <p>O maior portal de campoenatos online<p>
+                <p>O maior portal de campeonatos online<p>
                 <a href="">Inscreva-se</a>
             </div>
         </div>
@@ -113,17 +113,21 @@
         </div>
     </section>
 
+    
+    
     <script>
-        let menu = document.getElementById("menu")
-
+        let menu = document.getElementById("menu");
+        
         function mostrarMenu(){
-            
-            if (menu.getComputedStyle(display) != "flex") {
+
+            //if (menu.style.display != "flex") {
+            if (window.getComputedStyle(menu).display != "flex") {
                 menu.style.display = "flex"
             }else{
                 menu.style.display = "none"
             }
-        }
+        event.preventDefault();
+        }  
     </script>
        
     

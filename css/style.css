@@ -154,7 +154,46 @@ h2{
    margin: 5px 10px;
 }
 
-@media screen and(max-width: 1200px) {
+footer{
+    background-color: #010101 ;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.links_footer{
+    display: flex;
+    color: white;
+}
+
+.links_footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+footer .box_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box_logo.logo{
+   height: 30px;
+   width: 282px;
+
+}
+
+.info_contado{
+    color: white;
+}
+
+@media screen and (max-width: 1200px) {
    .Logo{
        width: 250px;
        margin-right: 20px;
@@ -171,7 +210,7 @@ h2{
     
 }
 
-@media screen and(max-width: 768px) {
+@media screen and (max-width: 768px) {
     .cabecalho_alinhamento{
         position: relative;
     }

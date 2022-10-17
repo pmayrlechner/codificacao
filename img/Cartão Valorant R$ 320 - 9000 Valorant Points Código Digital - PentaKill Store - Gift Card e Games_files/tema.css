@@ -1,0 +1,94 @@
+body {
+
+	font-family: 'Arial'
+	
+	, Helvetica
+	
+	,sans-serif;
+
+
+	
+	
+	
+		background-position: top center;
+	
+	
+		background-attachment: scroll;
+	
+	
+		background-repeat: repeat;
+	
+
+}
+
+:root {
+  --cor-principal: #181818;
+	--cor-botao: #181818;
+}
+a, a:hover, a:focus, .cor-principal, .menu a:hover, .atributo-comum a:hover span, .atributo-comum .active a span { color: #181818; } /* Cor Principal - Textos e Links */
+.fundo-principal, .botao.principal, .botao.principal:hover, .menu li:hover > a .fundo-secundario, .flex-control-paging li a.flex-active, .dropdown-menu > li > a:hover, .filtro.lista ul li label:hover, .filtro.lista ul li.active label , .menu-simples li a:hover, .menu-simples li.active a { background-color: #181818; } /* Cor Principal - Background */
+.borda-principal, .atributos ul li a:hover, .atributos ul li.active a, .tema-scuro .nav-tabs li.active a, .elastislide-carousel ul li.active a { border-color: #181818; } /* Cor Principal - Bordas */
+
+
+
+:root {
+  --cor-secundaria: #181818;
+}
+.cor-secundaria { color: #181818; }
+.fundo-secundario { background-color: #181818; }
+.borda-secundaria { border-color: #181818; }
+
+
+
+.titulo {
+	font-family: 'Open Sans'
+  
+  , serif;
+	
+	
+}
+
+
+
+#cabecalho {
+
+	
+		
+		
+		
+		background-position: top center;
+		
+		
+			background-repeat: repeat;
+		
+	
+}
+
+
+
+.barra-inicial { background-color: #444444; }
+
+
+
+
+#rodape .institucional {
+	
+		
+		
+		
+		background-position: top center;
+		
+		
+			background-repeat: repeat;
+		
+	
+}
+
+
+
+
+  
+    #barraNewsletter, #barraNewsletter .show-hide, #barraNewsletter .componente, #barraNewsletter.posicao-rodape .conteiner { background-color: #000000; }
+  
+  
+

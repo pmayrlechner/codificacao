@@ -11,6 +11,8 @@ function mostrarMenu() {
     // event.preventDefault();
 }
 
+
+
 function mostrarMenuJquery() { 
     $("#menu").toggle()
 }
@@ -90,7 +92,7 @@ function renderizarProdutos() {
 
 $(document).ready(function() {
 
-    let listaSlides = ["banner-f1", "banner-cs", "banner-lol"]
+    let listaSlides = ["banner_pilotos", "banner_cs", "banner_lol"]
     let slideAtual = 1
 
     function mudarSlide() {
